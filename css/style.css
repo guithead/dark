@@ -213,6 +213,7 @@ textarea {
 }
 
 input[type="submit"] {
+  -webkit-appearance: none;
   background-color: var(--secondary-color);
   color: var(--on-primary);
   padding: 12px 20px;
