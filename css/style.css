@@ -78,7 +78,7 @@ nav {
   padding: 0.5rem;
 }
 
-.nav-links a {
+a {
   margin-right: 25px;
   color: var(--primary-color);
   text-decoration: none;
@@ -374,6 +374,8 @@ input:checked + .slider::before {
 #sent-site h1 {
   text-align: center;
   padding: 1rem;
+  line-height: 6rem;
+  margin-bottom: 2rem;
 }
 
 #sent-site a {
