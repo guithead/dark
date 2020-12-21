@@ -45,6 +45,7 @@ body {
 
 section {
   min-height: 100vh;
+  min-height: -webkit-fill-available;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -381,6 +382,7 @@ input:checked + .slider::before {
 
 #sent-site a {
   font-size: 2rem;
+  margin-right: 0;
 }
 
 @media screen and (max-width: 800px) {
