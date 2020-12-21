@@ -52,7 +52,7 @@ section {
 
 h1 {
   font-size: 80px;
-  margin-bottom: 0;
+  margin-bottom: 5%;
   font-family: "Bungee", cursive;
 }
 
@@ -381,6 +381,9 @@ input:checked + .slider::before {
 }
 
 @media screen and (max-width: 800px) {
+  .theme-switch-wrapper {
+    top: 23px;
+  }
   .nav-links {
     display: none;
     margin-top: 1rem;
