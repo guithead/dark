@@ -370,6 +370,10 @@ input:checked + .slider::before {
   justify-content: center;
 }
 
+#sent-site section {
+  min-height: 100%;
+}
+
 #sent-site h1 {
   text-align: center;
   padding: 1rem;
